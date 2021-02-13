@@ -4,6 +4,7 @@ import math
 from util.logging_setting import log_for_func
 from dynamic_programming.knapsack_problem.input import CAPACITY, ITEMS, ITEMS_MULTIPLE
 
+# test
 
 class KnapsackSolutionApp:
     def __init__(self, capacity: int, items: dict, items_multiple: dict):
