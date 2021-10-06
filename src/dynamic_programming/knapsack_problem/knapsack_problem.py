@@ -2,7 +2,7 @@ import logging
 import math
 
 from util.logging_setting import log_for_func
-from dynamic_programming.knapsack_problem.input import CAPACITY, ITEMS, ITEMS_MULTIPLE
+from src.dynamic_programming.knapsack_problem.input import CAPACITY, ITEMS, ITEMS_MULTIPLE
 
 
 class KnapsackSolutionApp:
