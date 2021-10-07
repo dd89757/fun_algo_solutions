@@ -1,0 +1,11 @@
+https://www.icourse163.org/learn/PKU-1001894005?tid=1465713475#/learn/content?type=detail&id=1245419599&sm=1
+https://blog.actorsfit.com/a?ID=01750-62f4b8a5-fd8b-4e6b-8173-c3c3b7f16b1a
+
+Question:
+Put the same apples on the N same plates. Some plates are allowed to be left empty. How many different divisions are there? 5,1,1 and 1,5,1 division method is the same
+
+Sample input
+m=7 n=3
+
+Sample output
+8
