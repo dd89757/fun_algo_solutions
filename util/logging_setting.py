@@ -1,5 +1,6 @@
 import sys
 import logging
+from datetime import datetime
 
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
@@ -21,3 +22,14 @@ def log_for_func(level='info'):
             return output
         return inner
     return wrapper
+
+def log_with_time(func):
+    start = datetime.now()
+
+    output = func()
+
+    end = datetime.now()
+    elapse = end - start
+    print(f'Time elapse = {elapse.microseconds / 1000} ms')
+
+    return output
