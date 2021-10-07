@@ -1,4 +1,4 @@
-from util.logging_setting import log_for_func, log_with_time
+from util.logging_setting import log_with_time
 from src.recursion.fibonacci.input import n
 
 def fib(n):
@@ -14,7 +14,7 @@ def fib_w_memo(n):
             memo[n] = fib_memo(n - 1, memo) + fib_memo(n - 2, memo)
         return memo[n]
 
-    memo = {1: 1, 2: 1}
+    memo = {1: 1, 2: 2}
     return fib_memo(n, memo)
 
 
